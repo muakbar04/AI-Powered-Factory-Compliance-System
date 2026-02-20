@@ -19,7 +19,7 @@ CONFIG = {
     'occupancy_recent_window_seconds': 3,       # Worker can be present in last N seconds to count for interval
 
     'person_occupancy': {
-        'model_path': 'yolov8m.pt',
+        'model_path': 'yolov8s.pt',
         'tracker_config': 'botsort.yaml',
         'confidence_threshold': 0.3,
         'max_age_frames': 15,
@@ -39,7 +39,7 @@ CONFIG = {
     },
 
     'glove': {
-        'model_path': 'yolov8m-pose.pt',
+        'model_path': 'yolov8s-pose.pt',
         'confidence_threshold': 0.5,
         'brightness_threshold': 150,
         'frames_for_positive': 3,
