@@ -51,8 +51,8 @@ This repository relies on three specific YOLOv8 models to function. **Note: Thes
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/ppe-monitoring-system.git](https://github.com/yourusername/ppe-monitoring-system.git)
-    cd ppe-monitoring-system
+    git clone https://github.com/muakbar04/AI-Powered-Factory-Compliance-System.git
+    cd AI-Powered-Factory-Compliance-System
     ```
 
 2.  **Set up a virtual environment (recommended):**
@@ -64,12 +64,11 @@ This repository relies on three specific YOLOv8 models to function. **Note: Thes
 3.  **Install the required dependencies:**
     Ensure you have Python 3.8+ installed.
     ```bash
-    pip install ultralytics opencv-python numpy pandas shapely
+    pip install -r requirements.txt
     ```
 
 4.  **Download Models:**
-    Place `yolov8s.pt`, `yolov8s-pose.pt`, and `hemletYOLOV8_100epochs.pt` in the root directory of the project (or update the paths in the `CONFIG` dictionary in `main.py`). *Note: Please update the model paths in `main.py` from `yolov8m` to `yolov8s` if you are using the small variants.*
-
+    Place `yolov8s.pt`, `yolov8s-pose.pt`, and `hemletYOLOV8_100epochs.pt` in the root directory of the project (or update the paths in the `CONFIG` dictionary in `main.py`).
 ---
 
 ## 🚀 Usage Guide
