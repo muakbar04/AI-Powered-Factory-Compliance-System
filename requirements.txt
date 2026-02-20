@@ -1,0 +1,15 @@
+# Core Deep Learning & Computer Vision
+ultralytics>=8.0.0      # YOLOv8 tracking, pose estimation, and detection
+opencv-python>=4.6.0    # Main image processing (cv2)
+
+# Geometry & Math
+shapely>=2.0.0          # Polygon intersection (for ROIs)
+numpy>=1.23.0           # Array manipulations
+
+# Data Handling & Logging
+pandas>=2.0.0           # CSV report generation and processing
+pyyaml>=6.0             # Required for YOLO tracker configurations
+
+# Utilities
+datetime                # Native, but listed for environment clarity
+pickle5; python_version < "3.8"  # Compatibility for ROI pkl loading if on older python
